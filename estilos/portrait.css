@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+header h1 {
+    padding: 10px;
+}
+
+Header nav {
+    padding-left: 12px;
+}
+
+main {
+    background-color: black;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1;
+}
+
+section {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;    
+}
+
+.img {
+    width: 400px;
+    height: 300px;
+}
+
+
+.img h2:hover {
+    height: 20%;
+    padding-left: 50px;
+}
+
+
+
+aside {
+    width: 350px;
+    padding: 30px;
+    border: 1px solid white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
