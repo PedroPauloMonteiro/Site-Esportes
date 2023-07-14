@@ -127,22 +127,3 @@ aside a:hover {
     transition: 0.3s;
 }
 
-footer {
-    margin-top: 20px;
-    padding: 8px;
-    text-align: center;
-    background-color: black;
-    color: white;
-}
-
-footer a {
-    text-decoration: none;
-    color: white;
-}
-
-footer a:hover{
-    text-decoration: underline;
-    color: rgb(156, 4, 4);
-    transition: 0.3s;
-}
-
